@@ -1,0 +1,95 @@
+@import '@fontsource/fira-mono';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+	font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	--font-mono: 'Fira Mono', monospace;
+	--pure-white: rgba(255, 255, 255, 1);
+	--primary-color: #4538D1;
+	--secondary-color: #B5AFEC;
+	--tertiary-color: #65B2E8;
+	--accent-color: #5CFFBD;
+	--heading-color: rgba(0, 0, 0, 0.7);
+	--text-color: #444444;
+	--background-without-opacity: rgba(255, 255, 255, 0);
+	--column-width: 1035px;
+	--column-margin-top: 4rem;
+}
+
+body {
+	
+font-size: 14px;	
+margin: 0;
+	background-color: var(--pure-white);
+	
+}
+
+.trazado{
+	color: --primary-color;
+   -webkit-text-fill-color: transparent;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: --primary-color;
+}
+
+.trazado:hover{
+	color: --primary-color;
+   -webkit-text-fill-color: --primary-color;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: --primary-color;
+}
+
+
+::selection {
+	background: transparent;
+  }
+
+
+#svelte {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+h1,
+h2,
+h3 {font-weight: 700;}
+p {
+	
+font-weight: 300;
+}
+
+.btn{
+	text-transform: none;
+	font-weight: 400;
+}
+
+p {
+	line-height: 1.5;
+}
+
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+}
+
+..scene-container{
+	background: transparent!important;
+}
+
+.scene-container > .container {
+
+	margin: 0 auto!important;
+	background: transparent!important;
+}
+
