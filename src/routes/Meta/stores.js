@@ -21,7 +21,7 @@ export const updateModelStatus = (name, status) => {
 // List of example model URLs
 export const modelURL = {
 	littleCity: "3D/escenario.gltf",
-	arbol: "3D/Arbol2.gltf",
+	logoroi: "3D/logoroi.gltf",
 	agencia: "3D/agencia.gltf",
 	sireno: "3D/sireno.gltf",
 };

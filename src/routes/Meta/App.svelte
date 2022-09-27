@@ -9,9 +9,7 @@
 	import Loading from "./Loading.svelte";
 	import { statusOfModels, modelURL, modelsLoading, updateModelStatus } from "./stores";
 	
-	function handleStatusChange(evt) {
-		updateModelStatus(evt.detail.name, evt.detail.status);
-	}
+	
 
 	let width = 1;
 	let height = 1;
@@ -32,7 +30,7 @@
 	let spin = 0;
 
 	SC.onFrame(() => {
-	spin += 0.01;
+	spin += 0.05;
 	})
 		
 </script>
@@ -48,7 +46,7 @@ background={new THREE.Color('white')}
 	<SC.Group position={[0,-height/2,0]}>
     
 		<SC.Mesh
-		geometry={new THREE.PlaneGeometry(100,100)}
+		geometry={new THREE.PlaneGeometry(50,50)}
 		material={new THREE.MeshStandardMaterial({color:'white'})}
 		rotation={[Math.PI / 2,0,0]}
 		receiveShadow
@@ -65,8 +63,8 @@ background={new THREE.Color('white')}
 	  </SC.Group>
 
   <SC.PerspectiveCamera 
-    position={[100, 50, 0]}
-    near={0.1}
+    position={[70, 20, 0]}
+    near={0.6}
     far={200}
     fov={20}
   />
@@ -75,8 +73,8 @@ background={new THREE.Color('white')}
     enabled={true}
     enableZoom={true}
 	maxPolarAngle={Math.PI * 0.51}
-    autoRotate={true}
-    autoRotateSpeed={1}
+    autoRotate={false}
+    autoRotateSpeed={0.3}
   />
 
   <SC.DirectionalLight
@@ -87,7 +85,7 @@ background={new THREE.Color('white')}
   />
   <SC.AmbientLight
     color={new THREE.Color('white')}
-    intensity={0.9}
+    intensity={0.99}
   />
 	
 	<!-- Don't need this once we have a reusable component! -->
@@ -99,7 +97,16 @@ background={new THREE.Color('white')}
 		rotation={[0, Math.PI * -1.45, 0]} 
 		position={[0, 0.1, -6]} 
 		scale={[1,1,1]} 
-		on:statusChange={handleStatusChange} 
+		
+	/>
+
+	<ReusableGLTF 
+		modelURL={modelURL['logoroi']} 
+		name="logoroi" 
+		scale={[0.1,0.1,0.1]}
+		rotation={[0,-spin,0]}
+		position={[-0.85, 2.12, -5.3]}
+		
 	/>
 
 	<ReusableGLTF 
@@ -107,7 +114,7 @@ background={new THREE.Color('white')}
 		name="agencia" 
 		rotation={[0, Math.PI * -1.324, 0]} 
 		position={[-0.85, 0.15, -4.5]}
-		on:statusChange={handleStatusChange} 
+		 
 	/>
 
 	<ReusableGLTF 
@@ -116,7 +123,7 @@ background={new THREE.Color('white')}
 		position={[-0.5, -0.36, -1]}
 		rotation={[0, Math.PI * 1.45, 0]} 
 		scale={[1.2,1.2,1.2]}
-		on:statusChange={handleStatusChange} 
+		
 	/>
 	
 </SC.Canvas>

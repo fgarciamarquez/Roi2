@@ -5,7 +5,7 @@
 {#if showLoading}
 	<div class="loading-container">
 		<p>
-			Loading...
+			Descargando...
 		</p>	
 	</div>
 {/if}
@@ -15,8 +15,7 @@
 		position: fixed;
 		left: 5rem;
 		top: 5rem;
-		background: #00000088;
-		color: #fafbfc;
+		color: #000;
 		padding: .5rem .875rem;
 	}
 	
