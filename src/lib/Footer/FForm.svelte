@@ -5,7 +5,7 @@
   
   <div class="container flex flex-wrap mx-auto md:h-80 h-96 w-full p-4 py-5 w-full bg-no-repeat bg-auto " style="background-image:url('/img/ondasBlancas.png'); background-size:contain;">
     <div class="w-full md:w-1/2 relative z-0">
-      <div class="invisible absolute -top-6 1/2 md:visible">
+      <div class="invisible absolute -top-16 1/2 md:visible">
       <img width="500" src="/img/absolute_mano_tel.png" alt="Figura_mano">
       </div>
     </div> 
@@ -33,7 +33,7 @@
           
         </label>
       </div>
-      <button class="mx-auto text-center btn w-40 rounded-full bg-white font-normal disabled: hover:bg-success text-primary hover:text-primary transition ease-in-out duration-500 transform hover:scale-105 " disabled={!yes}>Enviar</button>
+      <button class="mx-auto text-center btn btn-sm w-40 rounded-full bg-white font-normal disabled: hover:bg-success text-primary hover:text-primary transition ease-in-out duration-500 transform hover:scale-105 " disabled={!yes}>Enviar</button>
 
     </form>
     </div>
@@ -49,7 +49,7 @@
 
   input,
   textarea {
-background-color: #191B8F;
+background-color: #1E3A8A;
   }
   ::placeholder {
   color: white;

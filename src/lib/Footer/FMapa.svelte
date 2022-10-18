@@ -17,7 +17,7 @@
         CP 36202 <br>
         Tfl: +34 986 910 648 <br><br>
 
-        <button class="btn border-0 w-40 rounded-full bg-white font-normal disabled: hover:bg-success text-primary hover:text-primary transition ease-in-out duration-500 transform hover:scale-105 px-10 ">Contactar</button>
+        <button class="btn btn-sm border-0 w-30 rounded-full bg-white font-normal disabled: hover:bg-success text-primary hover:text-primary transition ease-in-out duration-500 transform hover:scale-105 px-10 ">Contactar</button>
 
       </p>
     </div>
