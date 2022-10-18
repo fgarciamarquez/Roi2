@@ -6,16 +6,22 @@
     
   </script>
 
+<style>
+  .scene-container {
+  height: 50rem;
+  }
 
-<div class="scene-container bg-transparent relative w-full mx-auto ">
-    <App class="w-full mx-0 px-0"></App>
-  </div>
+  .container {
+    position: relative!important;
+  width: 100%!important;
+  }
+</style>
+
+<div class="scene-container justify-items-center bg-transparent relative w-11/12 mx-auto m-0 p-0 ">
+    <App class="w-full object-cover mx-auto "></App>
+</div>
 
 
 
 
-  <style>
-    .scene-container {
-    height: 60rem;
-    }
-  </style>
+  

@@ -35,6 +35,8 @@
 		
 </script>
 
+
+
 <SC.Canvas
 antialias 
 background={new THREE.Color('white')} 
@@ -72,7 +74,7 @@ background={new THREE.Color('white')}
   <SC.OrbitControls 
     enabled={true}
     enableZoom={true}
-	maxPolarAngle={Math.PI * 0.51}
+	maxPolarAngle={Math.PI * 0.47}
     autoRotate={false}
     autoRotateSpeed={0.3}
   />

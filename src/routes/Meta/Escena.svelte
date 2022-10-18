@@ -43,10 +43,13 @@ shadows
 <!-- OBJETO -->
 
    <SC.Mesh
+   on:click={()=>{
+    alert('click');
+   }}
     geometry={new THREE.BoxGeometry()}
     material={new THREE.MeshStandardMaterial({color: new THREE.Color('lightblue')})}
     scale={[$scale, $scale, $scale]}
-    rotation={[0,-spin,0]}
+    rotation={[0,spin,0]}
     castShadow
    />
 
