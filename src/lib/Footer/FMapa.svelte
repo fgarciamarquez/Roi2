@@ -8,11 +8,11 @@
   <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.css' rel='stylesheet' />
 
 </svelte:head>
-<div class="bg-blue-900 bg-contain bg-right bg-no-repeat text-white" style="background-image:url('/img/localizacion_roiscroll.webp')">
+<div class="bg-blue-900 bg-contain bg-right bg-no-repeat text-white" style="background-image:url('/img/localizacion_roiscroll.jpg')">
   <div class="container columns-2 flex flex-wrap mx-auto relative py-10 h-80 p-4 w-full">
     <div class="w-full md:w-1/2 relative mb-4">
       <h2 class="text-success">Contáctanos</h2>
-      <p class="text-white">Calle Policarpo Sanz, nº3, 5º piso. <br>
+      <p class="text-white drop-shadow-sm">Calle Policarpo Sanz, nº3, 5º piso. <br>
         Vigo (Pontevedra) <br>
         CP 36202 <br>
         Tfl: +34 986 910 648 <br><br>
