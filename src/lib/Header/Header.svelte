@@ -79,15 +79,15 @@
 				{#if estado}
 
 
-				<!-- <svg  xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><polygon points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49"/></svg> -->
+				<svg  xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><polygon points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49"/></svg>
 
 				
-				<button class="btn btn-xs btn-success rounded-full mt-3 px-4">menu</button>
+				<!-- <button class="btn btn-xs btn-success rounded-full mt-3 px-4">menu</button> -->
 				{:else}
 
-				<!-- <svg  xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"/></svg> -->
+				<svg  xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"/></svg>
 
-				<button class="btn btn-xs btn-primary rounded-full mt-3 px-4">menu</button>
+				<!-- <button class="btn btn-xs btn-primary rounded-full mt-3 px-4">menu</button> -->
 					
 				
 					
@@ -135,7 +135,8 @@
 
 				<li class="h-24"><a on:click={() => {document.getElementById('my-drawer').click()}} class="normal mx-auto" class:active={$page.url.pathname === "/"} href="/">Mini-Metaverso</a></li>
                 <li class="h-24"><a on:click={() => {document.getElementById('my-drawer').click()}} class="normal mx-auto" class:active={$page.url.pathname === "/Agencia"} href="/Agencia">Roi Scroll</a></li>
-				<li class="h-24">
+				<li class="h-24"><a on:click={() => {document.getElementById('my-drawer').click()}} class="normal mx-auto" class:active={$page.url.pathname === "/Servicios"} href="/Servicios">Servicios</a></li>
+				<!-- <li class="h-24">
 					<span class="relative w-72 md:w-96 mx-auto hover:bg-transparent ">
 						
 						<a on:click={() => {document.getElementById('my-drawer').click()}} tabindex="0" class="normal mx-auto" class:active={$page.url.pathname === "/Servicios"} href="/Servicios">
@@ -163,7 +164,7 @@
 					
 					
 				
-				</li>
+				</li> -->
 				<li class="h-24"><a on:click={() => {document.getElementById('my-drawer').click()}} class="normal mx-auto" class:active={$page.url.pathname === "/Casos-de-Exito"} href="/Casos-de-Exito">Casos de éxito</a></li>
 				<li class="h-24"><a on:click={() => {document.getElementById('my-drawer').click()}} class="normal mx-auto" class:active={$page.url.pathname === "/Blog"} href="/Blog">Blog</a></li>
 				<li class="h-24"><a on:click={() => {document.getElementById('my-drawer').click()}} class="normal mx-auto" class:active={$page.url.pathname === "/Contacto"} href="/Contacto">Contacto</a></li> 
