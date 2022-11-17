@@ -12,6 +12,7 @@
 	import Meta from "./Meta/index.svelte";
 </script>
 
+
 <style>
 	
 	.ancho_maximo {

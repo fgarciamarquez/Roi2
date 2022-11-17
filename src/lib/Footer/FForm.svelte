@@ -13,9 +13,9 @@
 <h2 class="text-white">¡Vamos a ayudarnos!</h2>
     <form class="flex flex-col w-full justify-center ">
       
-        <input type="text" placeholder="Nombre" class="input-sm my-1  rounded-2xl input-bordered drop-shadow-md" />
-        <input type="text" placeholder="Email" class="input-sm my-1 rounded-2xl input-bordered drop-shadow-md" />
-        <textarea class="textarea-sm rounded-2xl my-1 input-bordered drop-shadow-md" placeholder="Mensaje"></textarea>
+        <input type="text" placeholder="Nombre" class="input-sm my-1  rounded-lg input-bordered drop-shadow-md" />
+        <input type="text" placeholder="Email" class="input-sm my-1 rounded-lg input-bordered drop-shadow-md" />
+        <textarea class="textarea-sm rounded-lg my-1 input-bordered drop-shadow-md" placeholder="Mensaje"></textarea>
         
       <div class="form-control">
         <label class="cursor-pointer label gap-4 justify-center">
@@ -49,10 +49,10 @@
 
   input,
   textarea {
-background-color: #1E3A8A;
+background-color: #3e34af;
   }
   ::placeholder {
-  color: white;
+  color: lightgray;
   font-weight: lighter;
   padding-left: 1rem;
   

@@ -1,0 +1,12 @@
+{
+  "eablokker.tabsSidebar.config.customKindGroupsOrder" : [
+    "svelte",
+    "javascript"
+  ],
+  "eablokker.tabsSidebar.config.customTabOrder" : [
+    "\/Applications\/MAMP\/htdocs\/RoiScrollApp\/src\/routes\/MarqueeLogos.svelte",
+    "\/Applications\/MAMP\/htdocs\/RoiScrollApp\/src\/routes\/Dr.svelte",
+    "\/Applications\/MAMP\/htdocs\/RoiScrollApp\/vite.config.js",
+    "\/Applications\/MAMP\/htdocs\/RoiScrollApp\/src\/routes\/index.svelte"
+  ]
+}

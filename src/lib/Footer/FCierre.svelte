@@ -33,9 +33,9 @@
       <div class="iconos_legal mt-5">
         <div class="lista_legal flex flex-row-reverse gap-4">
 
-          <a text-white href="/Dp">Declaración de privacidad</a>
-          <a text-white href="/Dr">Descargo de responsabilidad</a>
-          <a text-white href="/Pc">Política de cookies</a>
+          <a class="text-white font-light" href="/Dp">Declaración de privacidad</a>
+          <a class="text-white font-light" href="/Dr">Descargo de responsabilidad</a>
+          <a class="text-white font-light" href="/Pc">Política de cookies</a>
         </div>
       </div>
 
