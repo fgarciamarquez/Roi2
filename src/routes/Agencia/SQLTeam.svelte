@@ -1,7 +1,7 @@
 <script>
 import {fade,scale} from "svelte/transition";
-// let ruta_api = "http://localhost:8888/ROISCROLL-BACK/team.php";
-let ruta_api = "https://api.roiscroll.com/team.php";
+let ruta_api = "http://localhost:8888/ROISCROLL-BACK/team.php";
+// let ruta_api = "https://api.roiscroll.com/team.php";
 
 
 let promesa = getPost();
